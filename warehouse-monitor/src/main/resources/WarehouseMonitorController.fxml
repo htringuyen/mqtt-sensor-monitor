@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iotwarehouse.monitorapp.controller.WarehouseMonitorController">
+   <children>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" VBox.vgrow="ALWAYS">
+        <items>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ToolBar scaleShape="false" style="-fx-background-color: Silver;">
+                     <items>
+                        <Label text="Layout" />
+                        <TextField prefColumnCount="5" promptText="rowsLim" />
+                        <TextField prefColumnCount="5" promptText="colsLim" />
+                        <Separator orientation="VERTICAL" />
+                        <Label text="Axis-X" />
+                        <TextField prefColumnCount="5" promptText="ticks" />
+                        <TextField prefColumnCount="5" promptText="preHours" />
+                        <Separator orientation="VERTICAL" />
+                        <Label text="Axis-Y" />
+                        <TextField prefColumnCount="5" promptText="upper" />
+                        <TextField prefColumnCount="5" promptText="lower" />
+                        <Separator orientation="VERTICAL" />
+                        <Label fx:id="warehouseInfoLabel" text="VN-BD-001" />
+                     </items>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ToolBar>
+                  <GridPane fx:id="monitorGridPane" hgap="8.0" VBox.vgrow="ALWAYS">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ToolBar prefHeight="40.0" prefWidth="200.0">
+                     <items>
+                        <RadioButton mnemonicParsing="false" text="Display Empties" />
+                        <Separator orientation="VERTICAL" />
+                        <Button mnemonicParsing="false" text="Search" />
+                        <TextField />
+                        <Separator orientation="VERTICAL" />
+                        <Button mnemonicParsing="false" text="Use container" />
+                        <Separator orientation="VERTICAL" />
+                        <Button mnemonicParsing="false" text="Recall container" />
+                        <Separator orientation="VERTICAL" />
+                        <Button mnemonicParsing="false" text="Access container" />
+                     </items>
+                  </ToolBar>
+                  <TableView prefHeight="241.0" prefWidth="1016.0">
+                     <columns>
+                        <TableColumn prefWidth="166.0" text="WarehouseCode" />
+                        <TableColumn prefWidth="162.0" text="ContainerOrdinal" />
+                        <TableColumn prefWidth="125.0" text="Status" />
+                        <TableColumn prefWidth="131.0" text="Temperature" />
+                        <TableColumn prefWidth="118.0" text="Humidity" />
+                     </columns>
+                  </TableView>
+               </children>
+            </VBox>
+        </items>
+      </SplitPane>
+   </children>
+</VBox>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iotwarehouse.monitorapp.controller.WarehouseSystemController">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+         <items>
+            <Label text="Warehouse System Monitor">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Separator orientation="VERTICAL" />
+            <TextField fx:id="warehouseCodeTextField" promptText="Warehouse code">
+               <contextMenu>
+                  <ContextMenu>
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="WH-HCM1" />
+                        <MenuItem mnemonicParsing="false" text="WH-HCM2" />
+                     </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TextField>
+            <Button fx:id="openTabButton" mnemonicParsing="false" onAction="#onOpenTabButtonPressed" text="OpenTab" />
+            <Separator orientation="VERTICAL" />
+         </items>
+      </ToolBar>
+      <TabPane fx:id="warehouseMonitorTabPane" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+        <tabs>
+          <Tab text="Untitled Tab 1" />
+          <Tab text="Untitled Tab 2" />
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

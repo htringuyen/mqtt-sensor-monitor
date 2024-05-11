@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b8f6ee5-40be-434c-8316-cf2d1326d052" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hivemq-extension-sqlstore">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/warehouse-monitor">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="warehouse-iotsys-monitor" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="warehouse-iotsys-monitor" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fEZ6soD9T1d4GAkXOcuOYTOKTF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AuthenticationIT.testConnectDuplicatedSensors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionPoolTest.testTakeFromConnectionPool.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionReportIT.testReportConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JdbcConnectTest.testConnectMssql.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JdbcConnectTest.testConnectionHelper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MessageReplayIT.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MessageReplayIT.testInterceptPublish.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ObserverStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ObserverStoreTest.testAuthenticateObserver.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ObserverStoreTest.testFindObserverParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PublishInterceptorIT.testInterceptPublish.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecordServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecordServiceTest.testSensorConnectedReportRecord.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RoleStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RoleStoreTest.testAuthenticateRole.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SensorStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SensorStoreTest.testFindParamsForId.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TopicPubSubIT.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TopicPubSubIT.testTemperatureSystemSensor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TopicPubSubIT.testWarehouseScopeObserver.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TopicStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TopicStoreTest.testGetAllTopics.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TreeMapTest.testTreeMapSubMap.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.warehouse-iotsys-monitor [:hivemq-core-extension:integrationTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.warehouse-iotsys-monitor [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.warehouse-iotsys-monitor [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.warehouse-iotsys-monitor:warehouse-monitor [:warehouse-monitor:Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;OpenRewrite.JakartaEE10.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nhtri/javaprojs/warehouse-iotsys-monitor/warehouse-monitor/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/nhtri/javaprojs/warehouse-iotsys-monitor/warehouse-monitor/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28147268&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/warehouse-monitor/src/main/resources" />
+      <recent name="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/core" />
+      <recent name="$PROJECT_DIR$/hivemq-core-extension/src/main/java/org/iotwarehouse/extension/core" />
+      <recent name="$PROJECT_DIR$/hivemq-core-extension/src/integrationTest/resources" />
+      <recent name="$PROJECT_DIR$/gradle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/warehouse-monitor/src/main/resources/org.iotwarehouse.monitorapp.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle test" />
+      <command value="gradle :hivemq-core-extension:integrationTest" />
+      <command value="gradle clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.iotwarehouse.monitorapp.Launcher" />
+      <module name="warehouse-iotsys-monitor.warehouse-monitor.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iotwarehouse.monitorapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationIT.testConnectDuplicatedSensors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hivemq-core-extension:integrationTest" />
+            <option value="--tests" />
+            <option value="&quot;org.iotwarehouse.extension.core.AuthenticationIT.testConnectDuplicatedSensors&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="warehouse-iotsys-monitor [:hivemq-core-extension:integrationTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hivemq-core-extension:integrationTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="warehouse-iotsys-monitor [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JakartaEE10" type="OpenRewriteRunConfigurationType" factoryName="OpenRewrite" temporary="true" nameIsGenerated="true">
+      <option name="activeRecipes" value="org.openrewrite.java.migrate.jakarta.JakartaEE10" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/warehouse-monitor" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="OpenRewrite.JakartaEE10" />
+        <item itemvalue="Gradle.warehouse-iotsys-monitor [clean]" />
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Gradle.warehouse-iotsys-monitor [:hivemq-core-extension:integrationTest]" />
+        <item itemvalue="Gradle.AuthenticationIT.testConnectDuplicatedSensors" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b8f6ee5-40be-434c-8316-cf2d1326d052" name="Changes" comment="" />
+      <created>1713368025621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713368025621</updated>
+      <workItem from="1713368026641" duration="20292000" />
+      <workItem from="1713411926892" duration="11077000" />
+      <workItem from="1713423848389" duration="10158000" />
+      <workItem from="1713452202409" duration="4123000" />
+      <workItem from="1713457308875" duration="97000" />
+      <workItem from="1713457411534" duration="14688000" />
+      <workItem from="1713496511859" duration="35194000" />
+      <workItem from="1713543002684" duration="17181000" />
+      <workItem from="1713588250751" duration="31645000" />
+      <workItem from="1713634482846" duration="7338000" />
+      <workItem from="1713702813925" duration="1571000" />
+      <workItem from="1713756169521" duration="25414000" />
+      <workItem from="1713790265394" duration="25123000" />
+      <workItem from="1713844682837" duration="21746000" />
+      <workItem from="1713899006191" duration="6070000" />
+      <workItem from="1713948220386" duration="34965000" />
+      <workItem from="1714022378681" duration="10310000" />
+      <workItem from="1714077640856" duration="8901000" />
+      <workItem from="1714105895154" duration="2207000" />
+      <workItem from="1714112892228" duration="6303000" />
+      <workItem from="1714192876921" duration="28364000" />
+      <workItem from="1714828545780" duration="1036000" />
+      <workItem from="1714830843031" duration="9000" />
+      <workItem from="1715219540615" duration="22749000" />
+      <workItem from="1715268220128" duration="13000" />
+      <workItem from="1715272759198" duration="7116000" />
+      <workItem from="1715281311613" duration="14533000" />
+      <workItem from="1715313997527" duration="18630000" />
+      <workItem from="1715400193673" duration="28389000" />
+      <workItem from="1715431468027" duration="841000" />
+      <workItem from="1715432328161" duration="4754000" />
+      <workItem from="1715440177909" duration="2964000" />
+      <workItem from="1715443149024" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hivemq-core-extension/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hivemq-extension-sqlstore/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/warehouse-monitor/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
