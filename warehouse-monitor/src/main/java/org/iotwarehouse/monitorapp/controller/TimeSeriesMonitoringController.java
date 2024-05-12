@@ -41,6 +41,8 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
 
     private static final double Y_SCALE_RANGE_LOWER = 1.4;
 
+    private static final double Y_AXIS_SCALE_ADDITIONAL = 0.3;
+
     @FXML
     private ToggleButton autoButton;
 
@@ -62,7 +64,11 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
     @FXML
     private LineChart<Number, Number> timeseriesLineChart;
 
+    private XYChart.Series<Number, Number> dataSeries;
+
     private String variableName;
+
+    private String variableUnit;
 
     private int windowSize = 10;
 
@@ -96,12 +102,13 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
         // setup y-axis
         var yAxis = getYAxis();
         yAxis.setAnimated(false);
+        yAxis.setAutoRanging(false);
         yAxis.setForceZeroInRange(false);
         yAxis.setLabel("Value");
 
         // setup data point list
         this.dataPoints = FXCollections.observableArrayList();
-        var dataSeries = new XYChart.Series<>(getVariableName(), this.dataPoints);
+        this.dataSeries = new XYChart.Series<>(getVariableName(), this.dataPoints);
         this.timeseriesLineChart.getData().add(dataSeries);
 
         // setup range upper point list
@@ -129,6 +136,14 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
     @Override
     public void setVariableName(String name) {
         this.variableName = name;
+        timeseriesLineChart.setTitle(getVariableName() + " monitor");
+        dataSeries.setName(getVariableName());
+    }
+
+    @Override
+    public void setVariableUnit(String unit) {
+        this.variableUnit = unit;
+        getYAxis().setLabel(getVariableName() + " (" + unit + ")");
     }
 
     private String getVariableName() {
@@ -138,8 +153,6 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
     @Override
     public void setValueRangeUpper(Double value) {
         this.valueRangeUpper = value;
-        var yAxis = getYAxis();
-        yAxis.setUpperBound(value * Y_SCALE_RANGE_UPPER);
         updateValueRangeUpper();
     }
 
@@ -150,13 +163,18 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
     @Override
     public void setValueRangeLower(Double value) {
         this.valueRangeLower = value;
-        var yAxis = getYAxis();
-        yAxis.setLowerBound(value * Y_SCALE_RANGE_LOWER);
         updateValueRangeLower();
     }
 
-    public Double getValueRangeLower() {
+    private Double getValueRangeLower() {
         return this.valueRangeLower;
+    }
+
+    public void rangingYAxis() {
+        var yAxis = getYAxis();
+        var rangeSize = getValueRangeUpper() - getValueRangeLower();
+        yAxis.setLowerBound(getValueRangeLower() - rangeSize * Y_AXIS_SCALE_ADDITIONAL);
+        yAxis.setUpperBound(getValueRangeUpper() + rangeSize * Y_AXIS_SCALE_ADDITIONAL);
     }
 
     @Override
@@ -288,6 +306,7 @@ public class TimeSeriesMonitoringController implements TimeSeriesController, Ini
 
         setValueRangeLower(minValue);
         setValueRangeUpper(maxValue);
+        rangingYAxis();
     }
 
     private Double getDoubleValue(TextField textField) {

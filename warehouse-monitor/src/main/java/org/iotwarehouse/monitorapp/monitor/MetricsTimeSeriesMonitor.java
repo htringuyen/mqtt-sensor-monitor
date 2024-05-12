@@ -23,6 +23,8 @@ public class MetricsTimeSeriesMonitor {
 
     private final String variableName;
 
+    private final String variableUnit;
+
     private final int windowSize;
 
     private final Double valueRangeUpper;
@@ -34,13 +36,15 @@ public class MetricsTimeSeriesMonitor {
 
     public MetricsTimeSeriesMonitor(Mqtt5Client mqttClient, String metricsReportTopic,
                                     String metricsControlTopic,
-                                    TimeSeriesController controller, String variableName,
+                                    TimeSeriesController controller, String variableName, String variableUnit,
                                     int windowSize, Double valueRangeUpper, Double valueRangeLower) {
+
         this.mqttClient = mqttClient;
         this.metricsReportTopic = metricsReportTopic;
         this.metricsControlTopic = metricsControlTopic;
         this.controller = controller;
         this.variableName = variableName;
+        this.variableUnit = variableUnit;
         this.windowSize = windowSize;
         this.valueRangeUpper = valueRangeUpper;
         this.valueRangeLower = valueRangeLower;
@@ -50,9 +54,11 @@ public class MetricsTimeSeriesMonitor {
 
     private void initController() {
         controller.setVariableName(variableName);
+        controller.setVariableUnit(variableUnit);
         controller.setWindowSize(windowSize);
         controller.setValueRangeUpper(valueRangeUpper);
         controller.setValueRangeLower(valueRangeLower);
+        controller.rangingYAxis();
     }
 
     private void subscribeToMetricsReportTopic() {

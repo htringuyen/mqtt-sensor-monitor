@@ -81,6 +81,9 @@ public class WarehouseSystemController implements Controller, Initializable {
         controller.setMqtt5Client(mqttClient);
         controller.postInitialize();
 
+        view.component().setMaxSize(2000, 2000);
+        view.component().setMinSize(200, 200);
+
         var tab = new Tab(warehouseCode, view.component());
         tab.setClosable(true);
         tab.setText(warehouseCode);

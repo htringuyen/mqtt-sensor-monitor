@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b8f6ee5-40be-434c-8316-cf2d1326d052" name="Changes" comment="" />
+    <list default="true" id="2b8f6ee5-40be-434c-8316-cf2d1326d052" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/warehouse-monitor/warehouse-iotsys-monitor.warehouse-monitor.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/warehouse-monitor/warehouse-iotsys-monitor.warehouse-monitor.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/Launcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/WarehouseMonitorApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/context/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/controller/TimeSeriesMonitoringController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/controller/WarehouseMonitorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/controller/WarehouseSystemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/core/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/core/MetricsSettingHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/core/TimeSeriesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/core/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/domain/ObserverAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/domain/TimeSeriesReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/domain/ValueRangeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/monitor/MetricsTimeSeriesMonitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/monitor/SimpleTimeSeriesMonitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/ApplicationServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/AuthenticationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/WarehouseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/WarehouseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/service/exception/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/simulation/TimeSeriesSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/classes/java/main/org/iotwarehouse/monitorapp/util/chart/TimestampStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/lombok/effective-config/lombok-main.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/resources/main/TimeSeriesMonitoringController.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/resources/main/WarehouseMonitorController.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/resources/main/WarehouseSystemController.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/tmp/compileJava/compileTransaction/stash-dir/TimeSeriesSensor.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/tmp/compileJava/compileTransaction/stash-dir/WarehouseMonitorApp.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/TimeSeriesMonitoringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/TimeSeriesMonitoringController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/WarehouseMonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/WarehouseMonitorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/WarehouseSystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/controller/WarehouseSystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/core/TimeSeriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/core/TimeSeriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/monitor/MetricsTimeSeriesMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/java/org/iotwarehouse/monitorapp/monitor/MetricsTimeSeriesMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/resources/TimeSeriesMonitoringController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/resources/TimeSeriesMonitoringController.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse-monitor/src/main/resources/WarehouseMonitorController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse-monitor/src/main/resources/WarehouseMonitorController.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -291,6 +343,9 @@
       <workItem from="1715432328161" duration="4754000" />
       <workItem from="1715440177909" duration="2964000" />
       <workItem from="1715443149024" duration="39000" />
+      <workItem from="1715452007932" duration="1274000" />
+      <workItem from="1715479709208" duration="8953000" />
+      <workItem from="1715492162610" duration="726000" />
     </task>
     <servers />
   </component>
